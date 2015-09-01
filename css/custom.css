@@ -1,0 +1,97 @@
+/*This is my custom CSS*/
+
+
+/*Dashboard*/
+.menu-bar {
+
+  background: #208de4;
+  color: white;
+  position: relative;
+  width: 100%;
+}
+.menu-list{
+  color: white;
+}
+
+.nav-bar{
+}
+
+
+
+ .green-box{
+   border-radius: 5px;
+   background: #33cc66;
+   color: white;
+   width: 100%;
+   position: relative;
+}
+.search{
+  color: black;
+  border:0px solid green;
+
+}
+
+.button{
+  position: relative;
+  padding: inherit;
+  align-items: flex-end;
+}
+
+
+.border{
+  border-style: solid;
+  border-color: #f6f6f6
+  border-radius: 20px;
+  border-width: 20px;
+
+}
+
+.list-group{
+  font-family:"Trebuchet MS",Helvetica, sans-serif;
+  color:"#208de4"
+}
+
+.graph-main{
+  border-right: solid gray;
+
+}
+
+.checkbox{
+
+
+
+}
+
+.banner{
+  background-color: #2498f4;
+  width:225px;
+  height: 50px;
+  display: inline-block;
+  float:right;
+}
+
+.know-box{
+  border-radious: 5px;
+  background-color: #2498f4;
+  color: white;
+  width: 577px;
+  height: 150px;
+  margin: 50px;
+  padding: 20px;
+
+  float: right;
+}
+
+.promo-box{
+  background-color: #2498f4;
+  width:100%;
+
+  display: inline-block;
+
+}
+
+.footer{
+  width: 100%;
+  margin-top: 50px;
+
+}
