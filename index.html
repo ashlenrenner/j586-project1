@@ -25,61 +25,42 @@
     <div class="row">
       <div class="col-lg-12"></div>
     </div>
-            <div class="menu-bar">
-            <div style="background-color: #208de4;
-            width: 100%;
-            height: 50px;
-            padding: 3px;">
-            <div class="menu-list">
-            <ul class="list-unstyled; list-inline" >
-              <li >
-                <a href="#"> MINI of Raleigh </a>
-              </li>
-              <li class="question" >
-                <a href="#"> <div class="question"> </a>
-              </li>
-            </div>
-              <li  >
-                <a href="#"> S </a>
-              </li>
-            </ul>
-          </div>
-          </div>
-          </div>
+                <div class="menu-bar">
+                    <a href="#" class="mini-of-raleigh">  <h5>MINI of Raleigh </h5></a>
+            <img class="question" src="images/question.png"/>
+</div>
 
             <div class="nav-bar">
-              <div style="background-color: #134670;
-              width: 100%;
-              height: 150px;
-              padding: 3px;">
-              <img src="images/nav-background.png"
-              img style="width: 100%; height: 150px;"
-              />
-              </div>
-               </div>
+              <img class="nav-background" src="images/nav-background.png"/>
+              <div class="icons">
+
+              <img class= "dash" src="images/Dashboard inactive.png" onmouseover="this.src='images/blue-dashboard.png'" onmouseout="this.src='images/Dashboard inactive.png'"/>
+              <img class= "customers" src="images/Customers inactive.png" onmouseover="this.src='images/blue-customers.png'" onmouseout="this.src='images/Customers inactive.png'"/>
+              <img class= "messages" src="images/Messages inactive.png" onmouseover="this.src='images/blue-messages.png'" onmouseout="this.src='images/Messages inactive.png'"/>
+              <img class= "promotions" src="images/Promotions inactive.png" onmouseover="this.src='images/blue-promotions.png'" onmouseout="this.src='images/Promotions inactive.png'"/>
+              <img class= "page-creator" src="images/Page Creator inactive.png" onmouseover="this.src='images/blue-pagecreator.png'" onmouseout="this.src='images/Page Creator inactive.png'"/>
+              <img class= "Analytics" src="images/Analytics inactive.png" onmouseover="this.src='images/blue-analytics.png'" onmouseout="this.src='images/Analytics inactive.png'"/>
+           </div>
+         </div>
 
 
 <!--Dashboard-->
 
-<div class="container">
   <div class="row">
+    <div class="container">
   <div class="col-lg-8 col-md-8 col-sm-4"></div>
 
   <div class="green-box">
-    <div style="background-color: #33cc66;
-    margin: 20px;20px;20px;
-    padding: 3px;">
-  <h3>Dashboard</h3>
+
+  <h2>Dashboard</h2>
 <!--Search Bar-->
 <div class="search">
   <div class="col-lg-4 col-md-4;"></div>
     <form class="navbar-form navbar-right" role="search">
       <div class="form-group">
-          <input type="text" class="form-control"
-          style="background-color:#f4f6f7">
-
+          <input type="text" class="form-control">
     </div>
-    <button type="submit" class="btn btn-default"><img src="css/search-icon"/></button>
+    <a href="#"><img class="search-icon" src="images/search-icon.png"/></a>
   </form>
 </div>
 </div>
@@ -87,26 +68,24 @@
 </div>
 </div>
 
-
-
-<!--gradient border
+<!--gradient border DONT TOUCH-->
 <div class="container">
-  <div class="row">
-    <div class="col-lg-12"></div>
-  </div>
   <div class="border">
-    <div style="width: 500px;
+    <div style="width: 600px;
     height;200px;
-    border 20px;
-    border-color: #f6f6f6;
-    border-radious: 15px;"></div>
-  -->
+    border 20px;"
+    </div>
+  </div>
+
+<!--gray big box-->
+<div class="gray-box">
+
 
 <!--Announcements-->
-<div class="container">
 <div class="row">
+  <div class="container">
   <div class="col-lg-12 col-md-6"></div>
-</div>
+<div class="announcements">
   <table class="table table-bordered">
     <tbody>
       <tr>
@@ -117,182 +96,198 @@
       </center>
       </font>
         <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        <td>arrows</td>
+        <td>
+        <span class="arrow"><</span>
+        <span class="arrow">></span>
+        </td>
       </tr>
   </table>
 </div>
-
-
-
+</div>
 
 <!--Tasks -->
 
-  <div class="conatiner">
-    <div class="row">
-    <div class="col-lg-4 col-md-2 col-sm-2">
+      <div class="row">
+        <div class="conatiner">
+    <div class="col-lg-4 ">
 
-      <div class="list-group">
-        <font color="#208de4">
-        <h2> Tasks </h2>
-      </font>
-        <a href="#" class="list-group-item active">
-          <span class="glyphicon glyphicon-circle"></span>
+
+            <a class="list-group" href="#"><h2> Tasks </h2></a>
+            <img class="gray-settings" src="images/gray-settings.png">
+            <a href="#" class="list-group-item">
+          <span class="circle">1</span>
           Welcome Contacts
-          <span class="badge"> 32</span>
+          <span class="badge">
+            <img class="task-img" src="images/blue-person.png"
+            onmouseover="this.src='images/gray-person.png'"
+            onmouseout="this.src='images/blue-person.png'"/>
+            32</span>
         </a>
         <a href="#" class="list-group-item ">
-          <span class="glyphicon glyphicon-circle"></span>
-          <font color="#208de4">
+          <span class="circle">2</span>
           Provide Responses
-        </font>
-          <span class="badge"> 36</span>
+          <span class="badge">
+            <img class="task-img" src="images/blue-person.png"
+            onmouseover="this.src='images/gray-person.png'"
+            onmouseout="this.src='images/blue-person.png'"/>
+            36</span>
         </a>
         <a href="#" class="list-group-item ">
-          <span class="glyphicon glyphicon-circle"></span>
-          <font color="#208de4">
+          <span class="circle">3</span>
           Review Activity
-        </font>
-          <span class="badge"> 36</span>
+          <span class="badge">
+            <img class="task-img" src="images/blue-person.png"
+            onmouseover="this.src='images/gray-person.png'"
+            onmouseout="this.src='images/blue-person.png'"/>
+            36</span>
               </a>
         <a href="#" class="list-group-item ">
-          <span class="glyphicon glyphicon-circle"></span>
-          <font color="#208de4">
+            <span class="circle">4</span>
           Reach Out
-        </font>
-          <span class="badge"> 3</span>
+          <span class="badge">
+            <img class="task-img" src="images/blue-person.png"
+            onmouseover="this.src='images/gray-person.png'"
+            onmouseout="this.src='images/blue-person.png'"/>
+            3</span>
         </a>
-      </div>
+      </span>
     </div>
+  </div>
 
   <!--Graph-->
 <div class="graph-main">
   <div class="col-lg-6 col-md-8 col-sm-8; ">
-<span style="color: #208de4">
+<a class="analytics" href="#">
 <h2>Analytics</h2>
-</span>
-<span style ="color:gray">
+</a>
+<div class="date-box">06/28/11 - 07/21/11</div>
+
+<a class="activity" href ="#">
     <h5>ACTIVITY</h5>
-  </span>
-  <img src="images/graph-main.png" class="img-responsive" alt="Graph" />
+  </a>
+      <img src="images/graph-main.png" class="img-responsive" alt="Graph" />
 
-<!--checkboxes-->
-
-<div class="checkbox">
-<label class="checkbox-inline">
-    <input type="checkbox"> Facebook
-    </label>
-  <label class="checkbox-inline">
-          <input type="checkbox"> Twitter
+      <!--checkboxes-->
+      <div class="checkbox">
+      <label class="checkbox-inline">
+          <input type="checkbox"> <span class="check-facebook">Facebook</span>
           </label>
-    <label class="checkbox-inline">
-          <input type="checkbox"> Foursquare
-          </label>
-    <label class="checkbox-inline">
-          <input type="checkbox"> Google+
-          </label>
-  </div>
-</div>
-</div>
-<!--circle graphs-->
-  <div class="col-lg-2 col-md-2 col-sm-2; ">
-    <span style ="color:gray">
-      <h5>CHANNELS</h5>
-  </span>
-    <img src="images/Channels.jpg" alt="Channels"; />
-    <span style= "color:gray">
-      <h5>REFERRALS</h5>
-    </span>
-    <img src="images/Referals-circle.jpg" alt="Referals" ; />
+        <label class="checkbox-inline">
+                <input type="checkbox"> <span class="check-twitter">Twitter</span>
+                </label>
+          <label class="checkbox-inline">
+                <input type="checkbox"> <span class="check-foursquare">Foursquare</span>
+                </label>
+          <label class="checkbox-inline">
+                <input type="checkbox"> <span class="check-google">Google+</span>
+                </label>
+        </div>
+      </div>
+      </div>
 
-
+      <!--circle graphs-->
+      <span class="circle-graph">
+        <div class="col-lg-2 col-md-2 col-sm-2; ">
+          <span style ="color:gray">
+            <h5>CHANNELS</h5>
+        </span>
+          <img src="images/Channels.jpg" alt="Channels"; />
+          <span style= "color:gray">
+            <h5>REFERRALS</h5>
+          </span>
+          <img src="images/Referals-circle.jpg" alt="Referals" ; />
 </div>
-</div>
-</div>
-</div>
+      </span>
+      </div>
+      </div>
+      </div>
 
 
 <!--Recommendations list-->
 
 <div class="conatiner">
   <div class="row">
-  <div class="col-lg-4 col-md-2 col-sm-2">
-    <div class="list-group">
-      <font color="#208de4">
-    <h2>Recommendations</h2>
-  </font>
-      <a href="#" class="list-group-item active">
-        <span class="glyphicon glyphicon-circle"></span>
+  <div class="col-lg-4 ">
+    <a class="list-group" href="#">
+      <h2>Recommendations</h2></a>
 
+      <a href="#" class="list-group-item ">
+      <img class="rec-img" src="images/green-document.png"/>
         7 Steps to getting more Fans
-
       </a>
       <a href="#" class="list-group-item ">
-        <span class="glyphicon glyphicon-circle"></span>
-                <font color="#208de4">
-          Increase traction with more interactions
-</font>
+        <img class="rec-img" src="images/green-document.png"/>
+        Increase traction with more interactions
       </a>
       <a href="#" class="list-group-item ">
-        <span class="glyphicon glyphicon-circle"></span>
-        <font color="#208de4">
+        <img class="rec-img" src="images/green-check.png"/>
         Creating a Promotion
-</font>
       </a>
       <a href="#" class="list-group-item ">
-        <span class="glyphicon glyphicon-circle"></span>
-        <font color="#208de4">
+        <img class="rec-img" src="images/green-light.png"/>
         Share More
-</font>
       </a>
     </div>
-  </div>
+
 
 <!--smaller graphs-->
 
 <div class=" col-lg-4 col-md-5 col-sm-5">
-  <img src="images/green-person.jpg" />
+  <img class="banner-end-left" src="images/banner-end-left.png"/>
+  <img class="banner-end-right" src="images/banner-end-right.png"/>
+        <div class="green-graph">
+      <div class="green-person">
+  <img src="images/green-person.jpg" /></div>
+      <div class="banner">
+        <h4>75 CONTACTS</h4>
+        <h5>4 INFLUENCERS</h5>
+          <img class="small-graph"src="images/green-graph.jpg" />
+      </div>
+  </div>
+    </div>
 
-  <div class="banner">
 
-  <h3>75 CONTACTS</h3>
-  <h5>4 INFLUENCERS</h5>
-  <img src="images/green-graph.jpg" />
-</div>
-</div>
+
 <div class="col-lg-4 col-md-5 col-sm-5">
-  <img src="images/orange-person.jpg" />
+  <img class="banner-end-left" src="images/banner-end-left.png"/>
+  <img class="banner-end-right" src="images/banner-end-right.png"/>
+  <div class="orange-graph">
+    <div class="orange-person">
+  <img src="images/orange-person.jpg" /></div>
   <div class="banner">
-  <h3>17 CUSTOMERS</h3>
+  <h4>17 CUSTOMERS</h4>
   <h5>0 INFLUENCERS</h5>
-  <img src="images/orange-graph.jpg" />
+  <img class="small-graph" src="images/orange-graph.jpg" />
 </div>
 </div>
 </div>
-
+</div>
+<!--close row--> </div>
 
 <!--did you know-->
+<div class="row">
 <div class="col-lg-8 col-md-8;">
     <div class="know-box">
-
-        <h5>DID YOU KNOW?</h5>
+        <img class="half-circle-left" src="images/half-circle-left.png"/>
+          <img class="half-circle-right" src="images/half-circle-right.png"/>
+            <h5>DID YOU KNOW?</h5>
         <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.
         </p>
 
       </div>
     </div>
+  </div>
 
 
 <!--promo box-->
 
-<div class="container">
-  <div class="row">
+<div class="row">
+  <div class="container">
   <div class="col-lg-12 col-md-8 col-sm-4"></div>
   <div class="promo-box">
-    <div style="background-color: #2498f4;
-                padding: 60px;"  >
-  <img style="float: left; "src="images/green-promo.png" />
-  <img src="images/people-promo.png"/>
-  <img style="float: right; " src="images/orange-promo.png"/>
+  <img class="green-promo" src="images/green-promo.png" />
+  <img class="people-promo" src="images/people-promo.png"/>
+  <img class="orange-promo" src="images/orange-promo.png"/>
     </div>
 </div>
 </div>
@@ -303,15 +298,17 @@
         <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="footer">
-            <img src="images/footer-bar.png">
-                <div style="width: 100%; magin-top: 50px">
+              <div style="width: 100%; magin-top: 50px">
+                <img src="images/footer-bar.png">
 
               </div>
             </div>
           </div>
         </div>
 
+</div> <!--gray box closes-->
         </body>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

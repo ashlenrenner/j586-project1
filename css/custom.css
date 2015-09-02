@@ -2,94 +2,333 @@
 
 
 /*Dashboard*/
+
 .menu-bar {
 
   background: #208de4;
   color: white;
   position: relative;
   width: 100%;
+  text-align: right;
+  height: 50px;
+  padding: 3px;">
 }
-.menu-list{
+.mini-of-raleigh{
   color: white;
+  text-decoration: none;
+}
+.mini-of-raleigh:hover{
+  text-decoration: none;
+  color: inherit;
+}
+.question{
+position: inherit;
 }
 
 .nav-bar{
+  background-color: #134670;
+  width: 100%;
+  height: 150px;
+  padding: 3px;
+  width: 100%;
+  height: 150px;
+  z-index: -1;
 }
+.nav-background{
+  width:100%;
+  background-image: url ('images/nav-background.png' no repeat);
 
+  position: relative;
+}
+.icons{
+  display: inline-block;
+  float: center;
+  position: absolute;
+  margin: 20px;
 
+}
 
  .green-box{
    border-radius: 5px;
    background: #33cc66;
+   font-family:"Trebuchet MS",Helvetica, sans-serif;
    color: white;
-   width: 100%;
+   width: 100%;)
    position: relative;
+   margin: 20px;
+   padding-left: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
 }
 .search{
+  background-color:#f4f6f7
   color: black;
   border:0px solid green;
 
 }
 
-.button{
+
+.gray-box{
+  width: 105%;
+  height: relative;
   position: relative;
-  padding: inherit;
-  align-items: flex-end;
+  background-image: linear-gradient(#f5f5f5,#ffffff 40%);
+  border-radius: 15px;
+  padding-top: 20px;
 }
 
-
 .border{
-  border-style: solid;
-  border-color: #f6f6f6
+  border-style: transparent;
   border-radius: 20px;
   border-width: 20px;
 
 }
 
+.announcements{
+  background-color: white;
+
+}
+.arrow{
+  background-color:white;
+  color:orange;
+  border-radius:50%;
+  border:solid gray 2px;
+  padding:5px;
+  margin-right: 3px;
+  font-weight: bold;
+
+}
 .list-group{
   font-family:"Trebuchet MS",Helvetica, sans-serif;
-  color:"#208de4"
+  color:#208de4;
+  position: relative;
+  margin-left: 50px;
 }
+.list-group:hover{
+  color: gray;
+  text-decoration: none;
+}
+.list-group-item{
+  color: #208de4;
+  font-family:"Trebuchet MS",Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 50px;
+}
+.list-group-item:hover{
+  text-decoration: none;
+  color: gray;
+}
+.gray-settings{
+ position: relative;
+}
+.circle{
+  background-color:#33cc66;
+  color:white;
+  border-radius:50%;
+  border:solid #33cc66 1px;
+  padding:5px;
+  margin-right: 3px;
+}
+.badge{
+  color: #208de4;
+  background-color: white;
+  border: solid gray 1px;
+  border-radius: 4px;
+  position: relative;
+}
+.badge:hover{
+  color: gray;
+  background: #f5f5f5;
 
+}
+.date-box{
+  border: solid gray 1px;
+  border-radius: 3px;
+  width: auto;
+  height: auto;
+  float:right;
+  padding: 3px;
+  margin-right: 30px;
+
+}
 .graph-main{
   border-right: solid gray;
 
 }
+.analytics{
+  color: #208de4;
 
-.checkbox{
+}
+.analytics:hover{
+  text-decoration: none;
+  color: gray;
 
-
+}
+.activity{
+  color: grey;
+}
+.activity:hover{
+  color: inherit;
+  text-decoration: none;
+}
+.circle-graph{
+position: absolute;
+margin-top: 50px;
+  border-left: solid gray 1px;
 
 }
 
+.checkbox{
+margin-top: 50px;
+
+}
+.check-facebook{
+  border: solid #0e406e 1px;
+  color: white;
+  background: #0e406e;
+  border-radius: 3px;
+  padding: 5px;
+  font-weight: bold;
+}
+.check-twitter{
+  border: solid #208de4 1px;
+  color: white;
+  background: #208de4;
+  border-radius: 3px;
+  padding: 5px;
+  font-weight: bold;
+}
+.check-foursquare{
+  border: solid #0e406e 1px;
+  color: white;
+  background: #0e406e;
+  border-radius: 3px;
+  padding: 5px;
+  font-weight: bold;
+}
+.check-google{
+  border: solid #33cc66 1px;
+  color: white;
+  background: #33cc66;
+  border-radius: 3px;
+  padding: 5px;
+  font-weight: bold;
+}
+.rec-img{
+  margin-right: 3px;
+
+}
+/*entire green person graph and banner and box*/
+.green-graph{
+width: 250px;
+height: 280px;
+border: solid #cccccc 1px;
+border-radius: 10px;
+box-shadow: 0px 3px 5px .5px #C9C9C9;
+display: block;
+margin-top: -150px;
+margin-left: 50px;
+
+}
+.green-person{
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 85px;
+
+}
+/*entire orange person graph banner and box*/
+.orange-graph{
+  width: 250px;
+  height: 280px;
+  border: solid #cccccc 1px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px .5px #C9C9C9;
+  display: block;
+  margin-top: -150px;
+  margin-left: 50px;
+}
+.orange-person{
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 85px;
+}
 .banner{
   background-color: #2498f4;
-  width:225px;
-  height: 50px;
+  color: white;
+  width:250px;
+  height: 65px;
   display: inline-block;
-  float:right;
+  float:left;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.banner-end-left{
+  margin-left: 37px;
+  margin-top: 200px;
+}
+.banner-end-right{
+  margin-left: 245px;
+  margin-top: 200px;
+}
+
+.small-graph{
+  float: right;
+  margin-top: 15px;
+  margin-right: 30px;
+
 }
 
 .know-box{
-  border-radious: 5px;
   background-color: #2498f4;
   color: white;
-  width: 577px;
+  border: solid #2498f4 1px;
+  border-radius: 5px;
+  width: 600px;
   height: 150px;
-  margin: 50px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  margin-left: 400px;
+  margin-right: -310px;
   padding: 20px;
-
+  padding-left: 50px;
   float: right;
+}
+.half-circle-left{
+  position: absolute;
+  margin-left: -71px;
+  margin-top: 10px
+}
+.half-circle-right{
+  position: absolute;
+  margin-left: 527px;
+  margin-top: 28px;
 }
 
 .promo-box{
   background-color: #2498f4;
   width:100%;
-
   display: inline-block;
-
+  padding: 35px;
 }
+.green-promo{
+  float:left;
+  position: absolute;
+  margin-right: -30px;
+}
+.people-promo{
 
+  position: absolute;
+  margin-left: 400px;
+  margin-right: 30px;
+  align-items: center;
+}
+.orange-promo{
+
+  margin-left: 750px;
+  margin-right: 30px;
+}
 .footer{
   width: 100%;
   margin-top: 50px;
